@@ -10,12 +10,15 @@ pool:
   vmImage: ubuntu-latest
 
 jobs:
- - job: demo
-   displayName: Demo
+ - job: demoJob
+   displayName: DemoJob1
    pool: Zhang
    steps:
       - script: echo Hello, world!
         displayName: 'Step1'
+ - job: demoJob
+   displayName: DemoJob2
+   steps:
       - script: |
             echo Add other tasks to build, test, and deploy your project.
             echo See https://aka.ms/yaml
