@@ -10,13 +10,13 @@ pool:
   vmImage: ubuntu-latest
 
 jobs:
- - job: demoJob
+ - job: demoJob1
    displayName: DemoJob1
    pool: Zhang
    steps:
       - script: echo Hello, world!
         displayName: 'Step1'
- - job: demoJob
+ - job: demoJob2
    displayName: DemoJob2
    steps:
       - script: |
