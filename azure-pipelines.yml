@@ -16,6 +16,8 @@ jobs:
    steps:
       - script: echo Hello, world!
         displayName: 'Step1'
+      - script: echo Hello, Mr.Zhang!!
+        displayName: 'Step2'
  - job: demoJob2
    displayName: DemoJob2
    pool: Zhang
@@ -23,4 +25,4 @@ jobs:
       - script: |
             echo Add other tasks to build, test, and deploy your project.
             echo See https://aka.ms/yaml
-        displayName: 'Step2'
+        displayName: 'Step1'
