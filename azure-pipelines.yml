@@ -18,6 +18,9 @@ jobs:
         displayName: 'Step1'
       - script: echo Hello, Mr.Zhang!!
         displayName: 'Step2'
+      - task: zhangDemoTest@0
+        inputs:
+            samplestring: 'zhang test use'
  - job: demoJob2
    displayName: DemoJob2
    pool: Zhang
