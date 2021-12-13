@@ -20,7 +20,7 @@ jobs:
         displayName: 'Step2'
       - task: zhangDemoTest@0
         inputs:
-            samplestring: 'zhang test use'
+            samplestring: 'Bad'
  - job: demoJob2
    displayName: DemoJob2
    pool: Zhang
